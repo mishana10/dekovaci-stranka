@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+/* start THANKS */ 
+
+.thanks {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-bottom: 5px solid yellow;
+}
+
+.thanks-left img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.thanks-right {
+    width: 60%;
+    padding: 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.right-step {
+    margin-bottom: .5rem;
+}
+
+.our-aim {
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+/* end THANKS */ 
+
+/* start CAMPAIGNS */
+
+.campaings {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-bottom: 5px solid yellow;
+}
+
+.campaigns-title img {
+    width: 80px;
+}
+
+.campaigns-title-text {
+    margin-bottom: 2.5rem;
+}
+
+
+.campaigns-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.campaigns-newsletter {
+    padding: 1rem;
+}
+
+.campaigns-newsletter-title {
+    margin-bottom: 2rem;
+}
+
+.campaigns-newsletter-text {
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+/* end CAMPAINGS */ 
+
+/* WARNING */
+
+.warning {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-bottom: 5px solid yellow;
+}
+
+.warning-title img {
+    margin-bottom: .2rem;
+    width: 80px;
+}
+
+.warning-spam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.warning-title {
+    margin-bottom: 2rem;
+}
+
+.first-warning {
+    font-weight: 700;
+}
+
+.warning-solution {
+    font-size: 1rem;
+    margin-top: .3rem;
+    margin-bottom: 2rem;
+}
+
+/* end CAMPAIGNS */
+
+/* start ONBOARDING */
+
+.onboarding {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-bottom: 5px solid yellow;
+}
+
+.onboarding img {
+    width: 80px;
+    margin-bottom: .5rem;
+}
+
+.onboarding-title {
+    margin-bottom: 2rem;
+}
+
+.onboarding-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.onboarding-final {
+    font-size: 1rem;
+    margin-top: .3rem;
+}
+
+.btn {
+    outline: none;
+    cursor: pointer;
+    margin: 1.5rem;
+    border: none;
+    padding: 1.2rem 3rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.boarding {
+    background-color: black;
+    transition: all .2s ease-in;
+}
+
+.boarding a {
+    color: yellow;
+}
+
+.sharing {
+    background-color: blue;
+    transition: all .2s ease-in;
+}
+
+.sharing:hover, .boarding:hover {
+    opacity: .5;
+}
+
+.onboarding-bye {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+/* end ONBOARDING */
