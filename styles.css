@@ -209,3 +209,61 @@ body {
 }
 
 /* end ONBOARDING */
+
+/* start MEDIA QUERY */
+
+@media screen and (max-width: 992px) {
+    .first-warning {
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .first-warning {
+        max-width: 60%;
+    }
+
+    .first-project, .second-project {
+        max-width: 80%;
+    }
+
+    .thanks-left img {
+        width: 180px;
+    }
+
+    .thanks-right {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .thanks {
+        padding: 1rem 1rem;
+    }
+
+    .thanks-left img {
+        width: 150px;
+    }
+
+    .thanks-right {
+        width: 50%;
+        padding: 0 0;
+    }
+
+    .second-project {
+        margin-bottom: 1.5rem;
+    }
+
+    .first-warning {
+        margin-bottom: 1.5rem;
+    }
+
+    .first-onboarding {
+        width: 80%;
+    }
+
+    .btn {
+       margin: 1rem;
+    }
+}
