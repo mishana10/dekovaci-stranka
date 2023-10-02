@@ -208,6 +208,14 @@ body {
     margin-top: 2rem;
 }
 
+.attribute {
+    font-size: 5px;
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+    
+
 /* end ONBOARDING */
 
 /* start MEDIA QUERY */
