@@ -208,17 +208,8 @@ body {
     margin-top: 2rem;
 }
 
-/*
-.attribute {
-    background-color: black;
-    font-size: 5px;
-    text-decoration: none;
-    color: black;
-    opacity: .5;
-}*/
-
 .attribute a {
-    font-size: 5px;
+    font-size: 10px;
     text-decoration: none;
     color: black;
     opacity: .5;
