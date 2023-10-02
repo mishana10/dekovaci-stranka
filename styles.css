@@ -208,7 +208,7 @@ body {
     margin-top: 2rem;
 }
 
-.attribute {
+.attribute a {
     font-size: 5px;
     text-decoration: none;
     color: black;
