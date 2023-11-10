@@ -19,7 +19,7 @@ body {
     justify-content: center;
     gap: 1rem;
     padding: 2rem;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #f9ce06;
 }
 
 .thanks-left img {
@@ -57,7 +57,7 @@ body {
     text-align: center;
     gap: 1rem;
     padding: 2rem;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #f9ce06;
 }
 
 .campaigns-title img {
@@ -102,7 +102,7 @@ body {
     text-align: center;
     gap: 1rem;
     padding: 2rem;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #f9ce06;
 }
 
 .warning-title img {
@@ -144,7 +144,7 @@ body {
     text-align: center;
     gap: 1rem;
     padding: 2rem;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #f9ce06;
 }
 
 .onboarding img {
@@ -191,11 +191,11 @@ body {
 }
 
 .boarding a {
-    color: yellow;
+    color: #f9ce06;
 }
 
 .sharing {
-    background-color: blue;
+    background-color: #f9ce06;
     transition: all .2s ease-in;
 }
 
