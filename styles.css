@@ -197,6 +197,7 @@ body {
 .sharing {
     background-color: #f9ce06;
     transition: all .2s ease-in;
+    color: black;
 }
 
 .sharing:hover, .boarding:hover {
